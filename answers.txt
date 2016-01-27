@@ -1,0 +1,8 @@
+(a) Six commits have been done to the repository by the end up step 11.
+(b) The file .gitignore was last modified on 8/24/2015.
+(c) There were no files in the repository on 8/21/2015. Files were first added to the repository on 8/23/2015.
+(d) src/HardwoodSellerC.cpp was modified 1 time. src/WoodItem.cpp was modified 1 time. src/WoodItem.h was also modified one time. All these files were modified and commited on 8/24/2015.
+(e) git status displays paths that have differences between the index file and current HEAD commit, paths that also have differences between the working tree and index file, and finally paths in the working tree that are not tracked by Git. git log differs from git status because git log shows the commits logs. git status is more for the local user.
+(f) gitk main.java
+(g) git log --grep "transaction"
+(h) git log --author=Lauren --since="2016-01-05" \ --before="2016-02-16"
