@@ -1,3 +1,6 @@
+Name: Zachary Mauer
+CS username: mauer
+
 Welcome.
 
 You have sucessfully obtained a copy of the contents in the oracle repository.
