@@ -6,6 +6,7 @@
  */
 
 #include "WoodItem.h"
+#include <string>
 /*
  * Empty constructor
  */
@@ -24,4 +25,13 @@ WoodItem::WoodItem(std::string woodType, double deliveryTime, double itemPrice) 
 	baseDeliveryTime = deliveryTime;
 	price = itemPrice;
 }
+
+WoodItem& WoodItem::operator=(const WoodItem &WI)
+{
+	strcpy(type, WI.type);
+	baseDeliveryTime = WI.baseDeliveryTime;
+	price = WI.price;
+	return *this;
+}
+
 

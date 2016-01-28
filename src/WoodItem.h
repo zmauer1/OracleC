@@ -17,7 +17,7 @@
 class WoodItem {
 
 public:
-
+	WoodItem& operator=(const WoodItem &);
 	std::string type;
 	double baseDeliveryTime;
 	double price;
