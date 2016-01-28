@@ -26,12 +26,10 @@ WoodItem::WoodItem(std::string woodType, double deliveryTime, double itemPrice) 
 	price = itemPrice;
 }
 
-WoodItem& WoodItem::operator=(const WoodItem &WI)
+WoodItem& WoodItem::operator=(const WoodItem &rhs)
 {
-	strcpy(type, WI.type);
-	baseDeliveryTime = WI.baseDeliveryTime;
-	price = WI.price;
+	type = rhs.type;
+	baseDeliveryTime = rhs.baseDeliveryTime;
+	price = rhs.price;
 	return *this;
 }
-
-
